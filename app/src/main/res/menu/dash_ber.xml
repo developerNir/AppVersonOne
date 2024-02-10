@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/groupOne"
+        >
+
+        <item
+            android:id="@+id/Home"
+            android:title="Home"
+            android:icon="@drawable/home_ic"
+            />
+        <item
+            android:id="@+id/share"
+            android:title="checkList"
+            android:icon="@drawable/checklist"
+            android:checkable="true"
+            />
+    </group>
+
+    <item
+        android:id="@+id/dashbord"
+        android:title="DashBord"
+        android:icon="@drawable/dashbord"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/Search"
+        android:title="Notification"
+        android:icon="@drawable/notifications_ic"
+        android:checkable="true"
+        />
+    <item
+        android:title="shoping Card"
+        android:icon="@drawable/shoping_ic"
+        />
+
+
+
+</menu>
